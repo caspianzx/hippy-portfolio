@@ -1,19 +1,100 @@
-/* 
 
-Style Hints: 
+body {
+	font-size: 14px;
+	font-family:  = "Times New Roman", serif;
+	background-image: url("../images/pattern1.png");
+}
 
-Body Font Size = 14px
-	 Font Family = "Times New Roman", serif
-	 Font Color = black
-	 Background: #F3EBE9
+.page {
+	position: relative;
+	margin:auto;
+	margin-top: 0px;
+	width: 900px;
+	height: 800px;
+	box-sizing: border-box;
+}
 
-H1 Font Size = 50px
-   Font Family = Arial, Helvetica, sans-serif
-   Text-transform: uppercase;
-   color: #FFFFFF;	(White)
+header {
 
-H2: Font Size = 18px
-	Text-Transform: uppercase;
-	Font-Family: cursive, Helvetica, sans-serif;
+	margin-top: 0px;
+	height:600px;
+	background-color: #F0776E;
 
-*/
+}
+
+.orchids {
+	display: block;
+	width: 900px;
+	height:482px;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: "Arial", "Helvetica", sans-serif;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-top: 0px;
+	margin-left: 10px;
+	padding-top:30px;
+}
+
+h2 {
+	margin-bottom: 20px;
+	margin-left: 10px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: cursive, "Helvetica", sans-serif;
+}
+p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.about, .photo {
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-family: cursive, "Helvetica", sans-serif;
+	padding-top: 20px;
+}
+.spirit {
+	padding-top: 10px;
+	font-size: 15px;
+
+}
+.middle {
+	background-color: white;
+	box-sizing: border-box;
+	padding-bottom: 10px;
+}
+.pictures > img {
+	width:20%;
+	height: 100px;
+	padding: 10px;
+	border: 1px solid gray;
+	margin: auto;
+
+
+}
+.pictures {
+	position: relative;
+	width: 60%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+footer {
+	color: white;
+	background-color: #F0776E;
+	box-sizing: border-box;
+	position: relative;
+	height: 40px;
+}
+
+.foot {
+	padding-top: 10px;
+	float: right;
+}
+
+/*something with border box sizing
+}
